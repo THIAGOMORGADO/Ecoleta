@@ -6,6 +6,25 @@
   #page-home .content{
     align-items: center;
     text-align: center;
+    
+  }
+  #page-home header a {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #page-home main {
+    align-items: center;
+  }
+}
+@media(min-width: 1700px){
+  #page-home {
+    background-position-x: 40vw;
+  }
+  #page-home .content{
+    align-items: center;
+    text-align: center;
     margin-top: -25px;
   }
   #page-home header a {
@@ -18,12 +37,7 @@
     align-items: center;
   }
 }
-@media(min-width: 1366px){
-  #page-home {
-    background-position-x: 40vw;
-  }
-}
-@media(max-heigth: 760px){
+@media(max-height: 760px){
   #page-home {
     background-position-y: 200px;
   }
